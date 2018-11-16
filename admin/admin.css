@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+/* Style the tab */
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 10%;
+    height: 300px;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 30px 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    float: left;
+    padding: 30px 20px;
+    width: 90%;
+    border-left: none;
+    height: 300px;
+}
+
+.admin #tieudeadmin {
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.admin .glyphicon-log-in {
+    padding-left: 35px;
+}
+
+.image {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.category td  {
+    text-align: center;
+	color: red;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    -color: transparent;
+    text-decoration: underline;
+}
